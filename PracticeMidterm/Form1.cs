@@ -8,6 +8,10 @@ using System.Windows.Forms;
 
 namespace PracticeMidterm
 {
+    /*
+     Not covered:
+        - Manipulation of users.json or the use of Serialize
+     */
     public partial class Form1 : Form
     {
         private List<User> users;
@@ -20,9 +24,17 @@ namespace PracticeMidterm
 
         private void loadUsers()
         {
+            // Note that the path of the `users.json` can be full path or this. 
             string data = File.ReadAllText("../../Data/users.json");
             users = JsonConvert.DeserializeObject<List<User>>(data);
             dataGridView1.DataSource = users;
+        }
+
+        // This is not currently used. This is used for updating users.json when deleting.
+        private void writeUsers()
+        {
+            string jsonUser = JsonConvert.SerializeObject(users);
+            File.WriteAllText("../../Data/users.json", jsonUser);
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -61,6 +73,8 @@ namespace PracticeMidterm
 
             dataGridView1.DataSource = null;
             dataGridView1.DataSource = users;
+
+            //writeUsers();
         }
 
         private void btnSort_Click(object sender, EventArgs e)
