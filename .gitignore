@@ -1,1 +1,50 @@
+# Visual Studio
 .vs/
+
+# Build results
+[Bb]in/
+[Oo]bj/
+
+# User-specific files
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio cache
+.vscode/
+*.VC.db
+*.VC.opendb
+
+# NuGet packages (if packages are restored automatically)
+packages/
+!packages/build/
+
+# Test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# ReSharper
+_ReSharper*/
+*.ReSharper
+
+# Rider
+.idea/
+
+# DotCover
+*.dotCover
+
+# Azure
+PublishProfiles/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Windows thumbnails
+Thumbs.db
+Desktop.ini
