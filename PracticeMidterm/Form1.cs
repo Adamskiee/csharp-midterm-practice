@@ -5,7 +5,6 @@ using System.Data;
 using System.IO;
 using System.Linq;
 using System.Windows.Forms;
-using System.Windows.Forms.VisualStyles;
 
 namespace PracticeMidterm
 {
@@ -31,7 +30,7 @@ namespace PracticeMidterm
 
         }
 
-        // The show button resets the datas in DataView for demo purposes
+        // The show button resets the datas in DataGridView for demo purposes
         private void btnShow_Click(object sender, EventArgs e)
         {
             loadUsers();
@@ -46,7 +45,7 @@ namespace PracticeMidterm
         {
             /*
              * The use of `dataGridView1.SelectedRows` is to identify
-             * what are the rows does the user select.
+             * what are the rows selected. This can make multiple rows deletion.
              */
             if (dataGridView1.SelectedRows.Count == 0)
             {
