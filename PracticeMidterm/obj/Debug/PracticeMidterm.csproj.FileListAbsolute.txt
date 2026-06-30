@@ -1,0 +1,13 @@
+C:\Users\tosin\source\repos\PracticeMidterm\PracticeMidterm\bin\Debug\PracticeMidterm.exe.config
+C:\Users\tosin\source\repos\PracticeMidterm\PracticeMidterm\bin\Debug\PracticeMidterm.exe
+C:\Users\tosin\source\repos\PracticeMidterm\PracticeMidterm\bin\Debug\PracticeMidterm.pdb
+C:\Users\tosin\source\repos\PracticeMidterm\PracticeMidterm\bin\Debug\Newtonsoft.Json.dll
+C:\Users\tosin\source\repos\PracticeMidterm\PracticeMidterm\bin\Debug\Newtonsoft.Json.xml
+C:\Users\tosin\source\repos\PracticeMidterm\PracticeMidterm\obj\Debug\PracticeMidterm.csproj.AssemblyReference.cache
+C:\Users\tosin\source\repos\PracticeMidterm\PracticeMidterm\obj\Debug\PracticeMidterm.Form1.resources
+C:\Users\tosin\source\repos\PracticeMidterm\PracticeMidterm\obj\Debug\PracticeMidterm.Properties.Resources.resources
+C:\Users\tosin\source\repos\PracticeMidterm\PracticeMidterm\obj\Debug\PracticeMidterm.csproj.GenerateResource.cache
+C:\Users\tosin\source\repos\PracticeMidterm\PracticeMidterm\obj\Debug\PracticeMidterm.csproj.CoreCompileInputs.cache
+C:\Users\tosin\source\repos\PracticeMidterm\PracticeMidterm\obj\Debug\Practice.0ECF8889.Up2Date
+C:\Users\tosin\source\repos\PracticeMidterm\PracticeMidterm\obj\Debug\PracticeMidterm.exe
+C:\Users\tosin\source\repos\PracticeMidterm\PracticeMidterm\obj\Debug\PracticeMidterm.pdb
