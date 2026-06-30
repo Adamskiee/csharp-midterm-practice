@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace PracticeMidterm
 {
+    // Note that this class violates naming convention. This makes deserialization 
+    // short or easy to understand as the `users.json` also uses lowercase fields
     internal class User
     {
         public int id {  get; set; }
